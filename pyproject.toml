@@ -1,0 +1,11 @@
+[project]
+name = "django-ai-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "daphne>=4.2.1",
+    "django>=5.2.12",
+    "uvloop>=0.22.1",
+]
